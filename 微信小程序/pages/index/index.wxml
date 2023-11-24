@@ -1,0 +1,20 @@
+<!--index.wxml-->
+<view class="container">
+  <view class="userinfo" style="padding-bottom: 40rpx;">
+
+    <!-- <image src="http://127.0.0.1:5000/results/1675671256726_1.png/"></image> -->
+    <!-- #原来：<image src="{{detectPath}}" mode="aspectFit"></image> -->
+    <image src="{{detectPath}}" mode="aspectFit" style="width: 800rpx; height: 800rpx;"></image>
+
+  </view>
+  <view>
+    <button bindtap="clickImage" style="background-color: #00b38a;color: white;">开始生成
+    </button>
+
+  </view>
+  <view style="margin-left: 30rpx;">
+    <rich-text class='common-text-left'>生成状态: {{status}}</rich-text>
+    <rich-text class='common-text-left'>生成数量: {{spent}}</rich-text>
+    <!-- <rich-text class='common-text-left'>检测结果: {{result}}</rich-text> -->
+  </view>
+</view>
