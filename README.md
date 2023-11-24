@@ -17,3 +17,12 @@ conda activate ldm
 <br/>
 更改`index.js`中的 ` url: 'http://ip:5000/upload" ` 的 ip 为您自己的ipv4地址  
 
+
+### 下载权重文件
+
+After [obtaining the `stable-diffusion-v1-*-original` weights](#weights), link them
+```
+mkdir -p models/ldm/stable-diffusion-v1/
+ln -s <path/to/model.ckpt> models/ldm/stable-diffusion-v1/model.ckpt 
+```
+
