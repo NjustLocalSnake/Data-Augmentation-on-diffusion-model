@@ -20,7 +20,7 @@ conda activate ldm
 
 ### 下载权重文件
 
-After [obtaining the `stable-diffusion-v1-*-original` weights](#weights), link them
+可以在这里下载权重文件 [weights](https://huggingface.co/CompVis) 
 ```
 mkdir -p models/ldm/stable-diffusion-v1/
 ln -s <path/to/model.ckpt> models/ldm/stable-diffusion-v1/model.ckpt 
